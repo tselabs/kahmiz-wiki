@@ -10,7 +10,9 @@ export default {
       themeConfig: {
     
     logo: 'https://alpha-q3.sourcegcdn.com/2023/01/17/VyfhXyJy.png',
+    
     siteTitle: '卡赫米兹',
+    
     sidebar: {
       // This sidebar gets displayed when user is
       // under `guide` directory.
@@ -25,6 +27,7 @@ export default {
         }
       ]
     },
+        
     nav: [
       { text: '指南', link: '/guide' },
       {
@@ -35,23 +38,28 @@ export default {
         ]
       }
         ],
+        
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaolilab/kahmiz-wiki' }
         ],
+        
     footer: {
       message: '基于 CC BY-NC 4.0 协议分发内容',
       copyright: 'Copyright 版权所有 © 2022-2023 卡赫米兹全体成员'
     },
+        
     editLink: {
       pattern: 'https://github.com/xiaolilab/kahmiz-wiki/edit/main/docs/:path',
       text: '在 GitHub 上编辑本页'
     },
+        
     lastUpdatedText: '本页最后更新于',
+        
     docFooter: {
       prev: '上一页',
       next: '下一页'
     }
+
       }
-  }
-}
+      }
   
