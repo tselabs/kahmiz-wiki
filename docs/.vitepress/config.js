@@ -7,26 +7,12 @@ export default {
     ignoreDeadLinks: true,
     lastUpdated: true
     
-      themeConfig: {
+themeConfig: {
     
     logo: 'https://alpha-q3.sourcegcdn.com/2023/01/17/VyfhXyJy.png',
     
     siteTitle: '卡赫米兹',
-    
-    sidebar: {
-      // This sidebar gets displayed when user is
-      // under `guide` directory.
-      '/guide/': [
-        {
-          text: '指南',
-            collapsible: true,
-          items: [
-            { text: '引导', link: '/guide/index' }, // /guide/index.md
-            { text: '介绍', link: '/guide/about' }
-          ]
-        }
-      ]
-    },
+   
         
     nav: [
       { text: '指南', link: '/guide' },
