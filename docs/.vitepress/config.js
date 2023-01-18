@@ -52,6 +52,6 @@ export default {
       next: '下一页'
     }
       }
-
   }
+}
   
